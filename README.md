@@ -4,15 +4,15 @@
 
 ## 安装
 
-在 Codex 对话中输入：
+安装 Node.js 后，在项目根目录运行：
 
-```text
-$skill-installer 安装 https://github.com/Missdrop/missdrop-dev-style，使用仓库根目录的 SKILL.md，安装名为 missdrop-dev-style。
+```sh
+npx skills add Missdrop/missdrop-dev-style
 ```
 
 ## 使用
 
-安装后，在下一条消息里用 `$missdrop-dev-style` 加上要做的事。例如：
+在这个项目的 Codex 对话中，用 `$missdrop-dev-style` 加上要做的事。例如：
 
 ```text
 $missdrop-dev-style 审查当前改动，重点看方法职责和变量命名。
